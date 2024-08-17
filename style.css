@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -47,4 +48,53 @@ header h1 {
 
 ::placeholder {
     color: white;
+=======
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-image: url(./Assets/images/g1.png);
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 40px;
+    color: rgb(66, 68, 69);
+}
+
+header h1 {
+    margin: 0;
+}
+.calc {
+    max-width: 500px;
+    margin: 90px auto;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #0d0d0d;
+    border: 1px solid #eae6e6;
+}
+
+.calc-scr {
+    width: 100%;
+    height: 80px;
+    text-align: right;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 2.5rem;
+    border-radius: 25px;
+    border: 2px solid #fc1313;
+    background-color: #8481819b;
+}
+
+.section button {
+    width: 100%;
+    height: 70px;
+    margin: 2%;
+    font-size: 1.5rem;
+    border-radius: 20px;
+}
+::placeholder {
+    color: white;
+>>>>>>> 8bf65b2113de8217ee5eb532fb3ee940cf394849
 }
